@@ -58,7 +58,7 @@ app.patch("/updateNotes/:index", async (req, res) => {
 
 
 app.use("*name",(req,res)=>{
-  res.sendFilgit rm -r --cached node_modulese(path.join(__dirname, "../public/index.html"))
+  res.sendFile(path.join(__dirname, "../public/index.html"))
 });
 
 module.exports = app;
